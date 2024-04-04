@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- layout strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="rick_and_morty_string">Rick AND MoRTY</string>
+	<string name="time_string">9:41</string>
+	<string name="get_started_string">Get Started</string>
+	<string name="the_animated_rick_and_morty_characters_originate_from_america_created_by_justin_roiland_and_dan_harmon_container_string">The animated Rick and Morty characters originate from America created by Justin Roiland and Dan Harmon</string>
+</resources>

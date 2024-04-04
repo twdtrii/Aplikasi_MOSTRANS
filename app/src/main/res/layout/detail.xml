@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/content_container"
+        android:layout_width="138dp"
+        android:layout_height="151dp">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/econback"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/econback" />
+
+    <ImageView
+        android:id="@+id/econlike"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/econlike" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:shadowColor="#000000"
+        android:text="Detail"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/fotodl1"
+        android:layout_width="600dp"
+        android:layout_height="208dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/fotodl1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:shadowColor="#000000"
+        android:text="Morty"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:shadowColor="#000000"
+        android:text="Description"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="446dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:shadowColor="#000000"
+        android:text="Morty is the dim-witted grandson of Rick Sanchez. He is fifteen years old. Morty is a young adolescent. He has short brown hair that is carefully combed around his head and styled straight.... Read More"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
